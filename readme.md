@@ -13,7 +13,8 @@ Because the data is so easy to access and the tools so easy to play with, beginn
 
 ## Strategies
 
-Follow thw TMS/Slippy Map syyem
+Follow thw TMS/Slippy Map system
+
 * The folder structure to catalog
 * The use of PNG files to store the data
 
@@ -66,9 +67,9 @@ Link: [http://tile.openstreetmap.org/0/0/0.png]( http://tile.openstreetmap.org/0
 
 FGx Terrain supplies the 3D data by mimicking the standard, the URL and supplying a 'height map' for each Slippy Map tile from zoom level 0 to zoom level 18.
 
-![http://fgx.github.io/fgx-terrain/0/0/0.png]( http://fgx.github.io/fgx-terrain/0/0/0.png ) 
+![http://jaanga.github.io/terrain/0/0/0.png]( http://jaanga.github.io/terrain/0/0/0.png ) 
 
-Link: [http://fgx.github.io/fgx-terrain/0/0/0.png]( http://fgx.github.io/fgx-terrain/0/0/0.png ) 
+Link: [http://jaanga.github.io/terrain/0/0/0.png]( http://jaanga.github.io/terrain/0/0/0.png ) 
 
 The [bitmaps]( http://en.wikipedia.org/wiki/Bitmap ) (or images, [raster graphics]( http://en.wikipedia.org/wiki/Raster_graphics ) ) described here are of a special form.
 Each pixel designates an altitude above or below or equal to a datum. Very often, these types of bitmaps are termed 'height maps'.
@@ -93,11 +94,11 @@ The height data embedded in the images can be used for a variety of purposes. Th
 
 ## Issues & Notes
 
-The current FGx Terrain height maps follow a different projection system than the one used by most Slippy Maps.  We are currently researching the best methods for reconciling the differences. 
+The current Terrain height maps follow a different projection system than the one used by most Slippy Maps.  We are currently researching the best methods for reconciling the differences. 
 
 This repo currently contains every folder and file required to display height maps for Slippy Map levels 0 to 7.
 
-Currently the folders contain height maps only up to level 4 - after that there is merely a dummy image of the FGx cap.
+Currently the folders contain height maps only up to level 7 - After that there is a folder titled 7+ that has .
 
 
 ### Copyright and License
