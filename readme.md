@@ -15,8 +15,8 @@ Because the data is so easy to access and the tools so easy to play with, beginn
 
 Follow thw TMS/Slippy Map system
 
-* The folder structure to catalog
-* The use of PNG files to store the data
+* The folder structure in conjunction with the URL is used to index or catalog the files 
+* PNG files are used to store the data
 
 <!--
 
@@ -112,8 +112,11 @@ The current source for the height maps for levels 0 to 4 is [CleanTOPO2]( http:/
 The license is: 'You are welcome to use the contents of this site for personal use.'
 Thank you. 
 
+
 ## GDAL
 
+
+<--
 There are a number of ways to install GDAL
 
 Links on the GDAL site:
@@ -148,7 +151,7 @@ Since we are using OSM format, we had to edit gdal2tile. We did so according to 
 
 <http://gis.stackexchange.com/questions/63024/gdal2tiles-maptiles-from-bsb-kap-are-switched>
 
-	
+-->
 	
 	
 ## Change Log
