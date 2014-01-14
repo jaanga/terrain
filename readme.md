@@ -13,7 +13,7 @@ Because the data is so easy to access and the tools so easy to play with, beginn
 
 ## Strategies
 
-Follow thw TMS/Slippy Map system
+Follow the TMS/Slippy Map system
 
 * The folder structure in conjunction with the URL is used to index or catalog the files 
 * PNG files are used to store the data
@@ -115,8 +115,9 @@ Thank you.
 
 ## GDAL
 
+There are extensive note on how the GDAL utiliies are used to build the heightmaps in the [Jaanga Terrain Wiki]( https://github.com/jaanga/terrain/wiki ).
 
-<--
+<!--
 There are a number of ways to install GDAL
 
 Links on the GDAL site:
