@@ -1,7 +1,21 @@
 Jaanga Terrain
 ==============
 
-TMS in 3D
+Live demo: [UnFlatland R5 light 15 second data]( http://jaanga.github.io/terrain-viewer/un-flatland/r5/un-flatland-r5-light-de15.html)
+
+* Loads Jonathan de Ferranti's 15 second data set
+* About one data point about every 500 meters
+* Data set overs the entire world
+* Approx 185 MB file size
+
+Live demo: [UnFlatland R5 light 3 second data]( http://jaanga.github.io/terrain-viewer/un-flatland/r5/un-flatland-r5-light-de3.html )
+
+* Loads Jonathan de Ferranti's 3 second data set
+* About one data point about every 100 meters
+* Data set covers the USA only
+* Approx 160 MB
+
+2014-01-15 ~ Both the above viewers are developer versions used too help ith debugging. User oriented versions comming soon.
 
 ## Concept
 
@@ -19,6 +33,7 @@ Follow the TMS/Slippy Map system
 * PNG files are used to store the data
 
 <!--
+TMS in 3D
 
 Live demos (using a JavaScript viewer):
 
