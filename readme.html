@@ -6,6 +6,7 @@
 </head>
 <body>
 <script src=http://jaanga.github.io/libs/md/showdown.js ></script>
+
 <script>
 // RMV = read me viewer
 
@@ -18,8 +19,14 @@
 	RMV.basic = 'border: 3px double #eee; overflow-x: hidden; overflow-y: auto; padding: 10px; position: absolute; ';
 	RMV.height = ' height: ' + (window.innerHeight * 0.88) + 'px;';
 	RMV.horizontal = ' left: 0; margin: auto; max-width: 900px; min-width: 700px; right: 0; width: 100%; ';
-	RMV.top = ' top: 60px;';	
-	
+	RMV.top = ' top: 60px;';
+
+	RMV.breadcrumbs = document.body.appendChild( document.createElement( 'div' ) );
+	RMV.breadcrumbs.style.cssText = 'border: 0px double red; padding: 1px; position: absolute; top: 0px;' + RMV.horizontal;
+	RMV.breadcrumbs.innerHTML = '<h1>' + 
+		'<a href="../../index.html" >Jaanga</a> &raquo; <a href="../index.html" >Projects</a>' +
+	'</h1>';
+
 	RMV.readme = document.body.appendChild( document.createElement( 'div' ) );
 	RMV.readme.style.cssText = RMV.basic + RMV.height + RMV.horizontal + RMV.top ;
 	
@@ -29,7 +36,7 @@
 		xmlHttp.send( null );
 		return xmlHttp.responseText;
 	};	
-	
+
 	RMV.readme.innerHTML = RMV.converter.makeHtml( RMV.requestFile( 'readme.md' ) );
 </script>
 </body>

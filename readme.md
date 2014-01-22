@@ -5,7 +5,7 @@ Live demo: [UnFlatland R5 light 15 second data]( http://jaanga.github.io/terrain
 
 * Loads Jonathan de Ferranti's 15 second data set
 * About one data point about every 500 meters
-* Data set overs the entire world
+* Data set overs the entire globe
 * Approx 185 MB file size
 
 Live demo: [UnFlatland R5 light 3 second data]( http://jaanga.github.io/terrain-viewer/un-flatland/r5/un-flatland-r5-light-de3.html )
@@ -23,7 +23,7 @@ Live demo: [UnFlatland R5 light 3 second data]( http://jaanga.github.io/terrain-
 Provide digital elevation data for the entire globe at the highest resolution possible that is accessible via HTTP from a single GitHub Pages-enabled repository.
 
 ### Vision
-Because the data is so easy to access and the tools so easy to play with, beginner and intermediate level programmers create a wonderful new 3D geography.
+Because the 3D data is so easy to access and the tools so easy to play with, beginner and intermediate level programmers create a wonderful new 3D geography.
 
 ## Strategies
 
@@ -104,7 +104,6 @@ The height data embedded in the images can be used for a variety of purposes. Th
 * Assisting the calculation of the insolation (the amount of sunlight) on a building or area
 * Assisting with land use planning
 * Making geological features more apparent or visible
- 
 
 
 ## Issues & Notes
