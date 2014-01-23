@@ -9,6 +9,7 @@ Live demo: [UnFlatland R5 light 15 second data]( http://jaanga.github.io/terrain
 * Approx 185 MB file size
 
 Live demo: [UnFlatland R5 light 3 second data]( http://jaanga.github.io/terrain-viewer/un-flatland/r5/un-flatland-r5-light-de3.html )  
+
 * Loads Jonathan de Ferranti's 3 second data set
 * About one data point about every 100 meters
 * Data set covers the USA only
@@ -22,7 +23,43 @@ Live demo: [UnFlatland R5 light 3 second data]( http://jaanga.github.io/terrain-
 Provide digital elevation data for the entire globe at the highest resolution possible that is accessible via HTTP from a single GitHub Pages-enabled repository.
 
 ### Vision
-Because the 3D data is so easy to access and the tools so easy to play with, beginner and intermediate level programmers create a wonderful new 3D geography.
+Inspire entry and intermediate level programmers create wonderful new 3D cartography because the 3D data is so easy to access and the tools so engaging to play with, 
+
+## The Issues/The Problems to be Solved
+
+### Huge Data File Sizes
+The data in question is the alitude above or below sea level at a specified interval of, say, every kilometer, 100 metrse or even thirty meters for the entire surface of the earth. 
+
+The common wisdom pr traditional thinking is that storing this data requires huge file sizes. For example, a data source used here, Jonathan de Ferranti's files with 3 second accuracy,
+are supplied in 1,129 compressed ZIP files that occupy 15.1 gigabytes of disk space. Uncompressed this turns into 24,000 files and an additional 65 gigabytes of data.
+
+This is not the sort data set that young or neophyt proframmers are ikely to be able to deal with. On top of that, the data is usuallu kept in obscure file types such as HGT or SHP files
+that most people are not equipped to handle
+
+It is our intention to to bring this deluge of data into a manegeable container.
+
+The original goal was to be able to store all the data in a single GitHub repository - which has a limit if about one gigabyte of files. 
+We are not quite there yet, but we have magaed t bring Mr de Ferranti's data down to 2.85 gigabytes spread over four repositories. 
+
+
+### Complex Programming Requirements.  
+There are some sensational 3D cartography projects in existence. World Wind, Cesium and Google Earth come to mind. 
+In terms of application QGIS and ArcGIS come to mind. But you are not going to sit down and bash out a new map in just a few hours.
+These are professional tools for fully trained and committed engineers.
+
+Entry level to us means that a beginner programmer can turn someting out that is interesting with a couple of hundred lins of JavaScript and make it run on laptop.
+No large data sets needed. All works in the browser. No plugin necessary. All FOSS. And fun to play with as well.
+
+### No Filing System Standards
+
+ 
+
+## Project Files
+You have two ways of viewing the Jaanga Terrain files:
+
+* GitHub Pages view: [jaanga.github.io]( http://jaanga.github.io/terrain/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
+* GitHub Source Code view: [github.com/jaanga]( https://github.com/jaanga/terrain/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
+
 
 ## Strategies
 
