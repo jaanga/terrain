@@ -6,12 +6,12 @@
 </head>
 <body>
 <script src=http://jaanga.github.io/libs/md/showdown.js ></script>
-
+<script src=http://jaanga.github.io/libs/md//extensions/github.js /></script>
 <script>
 // RMV = read me viewer
 
 	var RMV = RMV || {};
-	RMV.converter = new Showdown.converter();
+	RMV.converter = new Showdown.converter( { 'github_flavouring': true, 'tables': true } );
 	
 	RMV.css = document.body.appendChild( document.createElement('style') );
 	RMV.css.innerHTML = 'body { font: bold 12pt monospace; margin: 0; overflow: hidden; }';	

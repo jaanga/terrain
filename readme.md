@@ -1,15 +1,14 @@
 Jaanga Terrain
 ==============
 
-Live demo: [UnFlatland R5 light 15 second data]( http://jaanga.github.io/terrain-viewer/un-flatland/r5/un-flatland-r5-light-de15.html)
+Live demo: [UnFlatland R5 light 15 second data]( http://jaanga.github.io/terrain-viewer/un-flatland/r5/un-flatland-r5-light-de15.html)    
 
-* Loads Jonathan de Ferranti's 15 second data set
+* Loads Jonathan de Ferranti's 15 second data set<
 * About one data point about every 500 meters
 * Data set overs the entire globe
 * Approx 185 MB file size
 
-Live demo: [UnFlatland R5 light 3 second data]( http://jaanga.github.io/terrain-viewer/un-flatland/r5/un-flatland-r5-light-de3.html )
-
+Live demo: [UnFlatland R5 light 3 second data]( http://jaanga.github.io/terrain-viewer/un-flatland/r5/un-flatland-r5-light-de3.html )  
 * Loads Jonathan de Ferranti's 3 second data set
 * About one data point about every 100 meters
 * Data set covers the USA only
