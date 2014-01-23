@@ -1,5 +1,8 @@
 Jaanga Terrain
 ==============
+This and the related Terrain repositories only contain data. The terrain data - 3d elevation data for the entire globe - may be viewed as maps with a variety of viewers.
+
+A number of viewer apps are available from the [Jaanga Terrain Viewer]( https://github.com/jaanga/terrain-viewer ) repository, including these two:
 
 Live demo: [UnFlatland R5 light 15 second data]( http://jaanga.github.io/terrain-viewer/un-flatland/r5/un-flatland-r5-light-de15.html)    
 
@@ -15,50 +18,63 @@ Live demo: [UnFlatland R5 light 3 second data]( http://jaanga.github.io/terrain-
 * Data set covers the USA only
 * Approx 160 MB
 
-2014-01-15 ~ Both the above viewers are developer versions used too help ith debugging. User oriented versions comming soon.
+2014-01-15 ~ Both the above viewers are developer versions used to help with debugging. User oriented versions coming soon.
 
 ## Concept
 
 ### Mission
-Provide digital elevation data for the entire globe at the highest resolution possible that is accessible via HTTP from a single GitHub Pages-enabled repository.
+Provide digital elevation data - heightmaps - for the entire globe at the highest resolution possible that is accessible as PNG files via HTTP from a few GitHub Pages-enabled repositories.
 
 ### Vision
 Inspire entry and intermediate level programmers create wonderful new 3D cartography because the 3D data is so easy to access and the tools so engaging to play with, 
 
 ## The Issues/The Problems to be Solved
 
-### Huge Data File Sizes
-The data in question is the alitude above or below sea level at a specified interval of, say, every kilometer, 100 metrse or even thirty meters for the entire surface of the earth. 
+### Data Files are too huge
+The data in question is the altitude above or below sea level at a specified interval of, say, every kilometer, 100 metres or even thirty meters for the entire surface of the earth. 
 
 The common wisdom pr traditional thinking is that storing this data requires huge file sizes. For example, a data source used here, Jonathan de Ferranti's files with 3 second accuracy,
 are supplied in 1,129 compressed ZIP files that occupy 15.1 gigabytes of disk space. Uncompressed this turns into 24,000 files and an additional 65 gigabytes of data.
 
-This is not the sort data set that young or neophyt proframmers are ikely to be able to deal with. On top of that, the data is usuallu kept in obscure file types such as HGT or SHP files
+This is not the sort data set that young or neophyte programmer are likely to be able to deal with. On top of that, the data is usually kept in obscure file types such as HGT or SHP files
 that most people are not equipped to handle
 
-It is our intention to to bring this deluge of data into a manegeable container.
+It is our intention to to bring this deluge of data into a manageable container.
 
 The original goal was to be able to store all the data in a single GitHub repository - which has a limit if about one gigabyte of files. 
-We are not quite there yet, but we have magaed t bring Mr de Ferranti's data down to 2.85 gigabytes spread over four repositories. 
+We are not quite there yet, but we have managed t bring Mr de Ferranti's data down to 2.85 gigabytes spread over four repositories. 
 
 
-### Complex Programming Requirements.  
+### You need a PhD just to start
 There are some sensational 3D cartography projects in existence. World Wind, Cesium and Google Earth come to mind. 
 In terms of application QGIS and ArcGIS come to mind. But you are not going to sit down and bash out a new map in just a few hours.
 These are professional tools for fully trained and committed engineers.
 
-Entry level to us means that a beginner programmer can turn someting out that is interesting with a couple of hundred lins of JavaScript and make it run on laptop.
+Entry level to us means that a beginner programmer can turn something out that is interesting with a couple of hundred lines of JavaScript and make it run on laptop.
 No large data sets needed. All works in the browser. No plugin necessary. All FOSS. And fun to play with as well.
 
 ### No Filing System Standards
+Everybody has there own way of doing things. NASA keeps its data differently that the US Forest Service who keep their data than Jonathan De Ferranti.
 
- 
+The 2D mapping world uses the TMS standard. The 3D world needs to follow suit.
+
 
 ## Project Files
 You have two ways of viewing the Jaanga Terrain files:
 
 * GitHub Pages view: [jaanga.github.io]( http://jaanga.github.io/terrain/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
 * GitHub Source Code view: [github.com/jaanga]( https://github.com/jaanga/terrain/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
+
+The terrain data for zoom levels 1 through 7 are in this repository. 
+There is also a folder title 7+ which contains larger bitmaps with Jonathan de Ferrant's 15 second data. This filder will eventually move to its own repository.
+
+The data for Jonathan de Ferrant's 3 second data is now in the following repositories:
+
+* [Jaanga Terrain DE3 0-31]( https://github.com/jaanga/terrain-de3-0-31 )
+* [Jaanga Terrain DE3 32-63]( https://github.com/jaanga/terrain-de3-32-63 )
+* [Jaanga Terrain DE3 64-95]( https://github.com/jaanga/terrain-de3-64-95 )
+* [Jaanga Terrain DE3 96-127]( https://github.com/jaanga/terrain-de3-96-127 ) 
+
 
 
 ## Strategies
@@ -206,6 +222,12 @@ Since we are using OSM format, we had to edit gdal2tile. We did so according to 
 	
 	
 ## Change Log
+
+2014-01-22 ~ Theo
+
+* de Farranti's 3 second data is online as PNG files
+* There is beginning to be a fair description of the issues and the benefits
+
 
 2014-01-14 ~ Theo
 
