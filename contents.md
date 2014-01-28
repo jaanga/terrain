@@ -3,12 +3,13 @@ Jaanga Terrain Contents
 
 Methods, tools, data and demos to create lively 3D cartography - faster and more easily than ever before 
 
-It's all more than can fit in a single GitHub repository, so here is ann annotated table of contents:
+It's all more than can fit in a single GitHub repository, so here is an annotated table of contents:
+
 
 ## Jaanga Terrain
 Repository: [Terrain]( https://github.com/jaanga/terrain/ )
 
-* Overview, main wiki and primary issues page all maintained in this reposotory
+* Overview, main wiki and primary issues page all maintained in this repository
 * Heightmaps with elevation data for TMS zoom levels 0-7, 16K PNG files with 165 MB of files
 * Methodology and tools for fast easy access to elevation data for zoom levels 8 to 18
 * Covers every part of the world that [OSM]( http://www.openstreetmap.org/ ) covers - matches [Slippy Map]( http://wiki.openstreetmap.org/wiki/Slippy_Map )
@@ -51,6 +52,7 @@ Terrain Viewer demo: [PNG Viewer]( http://jaanga.github.io/terrain-viewer/png-vi
 * Supports real-time zoom, pan and rotate
 * Toggle between two types of camera controllers: first person or trackball
 * Easy to build your own place lists
+* Obtain a permalink with location, zoom and scale using window.location.hash. Source code page has sample links
 * Support for large user-defined gazette
 * Toggle 3D placards that show place names
 * Supports many 2D map overlays
@@ -59,6 +61,12 @@ Terrain Viewer demo: [PNG Viewer]( http://jaanga.github.io/terrain-viewer/png-vi
 * Very small file size ~ you can easily open up and start hacking
 * Fast enough to be usable
 
+
+## Jaanga Files
+You have two ways of viewing the files in the Jaanga Terrain repositories:
+
+* GitHub Pages view: [jaanga.github.io/terrain]( http://jaanga.github.io/terrain/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
+* GitHub Source Code view: [github.com/jaanga/terrain]( https://github.com/jaanga/terrain/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
 
 
 
