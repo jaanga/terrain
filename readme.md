@@ -230,6 +230,8 @@ Since we are using OSM format, we had to edit gdal2tile. We did so according to 
 	
 ## Change Log
 
+2014-01-26 ~ 
+
 2014-01-22 ~ Theo
 
 * de Farranti's 3 second data is online as PNG files
