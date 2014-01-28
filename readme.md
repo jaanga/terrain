@@ -1,15 +1,58 @@
-Jaanga Terrain
-==============
-This and the related Terrain repositories only contain data. The terrain data - 3d elevation data for the entire globe - may be viewed as maps with a variety of viewers.
+Jaanga Terrain Read Me
+======================
 
-A number of viewer apps are available from the [Jaanga Terrain Viewer]( https://github.com/jaanga/terrain-viewer ) repository, including these two:
+![terrian/0/0/0.png]( 0/0/0.png )  
+_terrain/0/0/0.png - the entire globe ar zoom level 0_
 
-Live demo: [UnFlatland r5]( http://jaanga.github.io/terrain-viewer/un-flatland/r1/un-flatland-r5.html )  
+This and the various other related Jaanga Terrain repositories only contain data. 
+The terrain data - 3d elevation data for the entire globe in the form of PNG heightmaps - may be viewed as maps with a variety of viewers. 
+Several viewer apps are available from the [Jaanga Terrain Viewer]( https://github.com/jaanga/terrain-viewer ) repository.
+
+## Contents
+
+An annotaed table of Contents
+
+[Jaanga Terrain Contents]( http://jaanga.github.io/terrain/contents.html )
+
+
+
+## Concept
+
+### Mission
+Provide digital elevation data - in the form of heightmaps - for the entire globe at the highest resolution possible 
+that is accessible as PNG files via HTTP from a few (currently four ) GitHub Pages-enabled repositories.
+
+### Vision
+Inspire entry and intermediate level programmers create wonderful new 3D cartography because the 3D data is so easy to access and the tools so engaging to play with.
+
+
+## Project Files
+You have two ways of viewing the Jaanga Terrain files:
+
+* GitHub Pages view: [jaanga.github.io/terrain]( http://jaanga.github.io/terrain/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
+* GitHub Source Code view: [github.com/jaanga/terrain]( https://github.com/jaanga/terrain/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
+
+The terrain data for zoom levels 1 through 7 are in this repository. 
+
+The reposotory which contains larger bitmaps with Jonathan de Ferrant's 15 second data is here:
+
+* [Jaanga Terrain DE15]( https://github.com/jaanga/terrain-de15 )
+
+The data for Jonathan de Ferrant's 3 second data is now in the following repositories:
+
+* [Jaanga Terrain DE3 0-31]( https://github.com/jaanga/terrain-de3-0-31 )
+* [Jaanga Terrain DE3 32-63]( https://github.com/jaanga/terrain-de3-32-63 )
+* [Jaanga Terrain DE3 64-95]( https://github.com/jaanga/terrain-de3-64-95 )
+* [Jaanga Terrain DE3 96-127]( https://github.com/jaanga/terrain-de3-96-127 ) 
+
+Several viewer apps are available from the [Jaanga Terrain Viewer]( https://github.com/jaanga/terrain-viewer ) repository, including these:
+
+Live demo: [UnFlatland r5]( http://jaanga.github.io/terrain-viewer/un-flatland/r5/un-flatland-r5.html )  
 Source code: [UnFlatland r5]( https://github.com/jaanga/terrain-viewer/tree/gh-pages/un-flatland)
 
 * Loads Jonathan de Ferranti's 3 second data set
-* About one data point about every 90 meters
-* Approx 2.85B
+* About one data point for every 90 meters
+* Approx 2.85 GB
 
 Live demo: [Hello World]( http://jaanga.github.io/terrain-viewer/hello-world/r1/hello-world.html )  
 Source code: [Hello World]( https://github.com/jaanga/terrain-viewer/tree/gh-pages/hello-world)
@@ -26,14 +69,9 @@ Source code: [PNG Viewer]( https://github.com/jaanga/terrain-viewer/tree/gh-page
 
 * View the PNG files used as heightmaps
 * Set location, zoom and scale using window.location.hash. Source code page has sample links
+ 
 
-## Concept
 
-### Mission
-Provide digital elevation data - heightmaps - for the entire globe at the highest resolution possible that is accessible as PNG files via HTTP from a few GitHub Pages-enabled repositories.
-
-### Vision
-Inspire entry and intermediate level programmers create wonderful new 3D cartography because the 3D data is so easy to access and the tools so engaging to play with, 
 
 ## The Issues/The Problems to be Solved
 
@@ -64,24 +102,6 @@ No large data sets needed. All works in the browser. No plugin necessary. All FO
 Everybody has there own way of doing things. NASA keeps its data differently that the US Forest Service who keep their data than Jonathan De Ferranti.
 
 The 2D mapping world uses the TMS standard. The 3D world needs to follow suit.
-
-
-## Project Files
-You have two ways of viewing the Jaanga Terrain files:
-
-* GitHub Pages view: [jaanga.github.io]( http://jaanga.github.io/terrain/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
-* GitHub Source Code view: [github.com/jaanga]( https://github.com/jaanga/terrain/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
-
-The terrain data for zoom levels 1 through 7 are in this repository. 
-There is also a folder title 7+ which contains larger bitmaps with Jonathan de Ferrant's 15 second data. This filder will eventually move to its own repository.
-
-The data for Jonathan de Ferrant's 3 second data is now in the following repositories:
-
-* [Jaanga Terrain DE3 0-31]( https://github.com/jaanga/terrain-de3-0-31 )
-* [Jaanga Terrain DE3 32-63]( https://github.com/jaanga/terrain-de3-32-63 )
-* [Jaanga Terrain DE3 64-95]( https://github.com/jaanga/terrain-de3-64-95 )
-* [Jaanga Terrain DE3 96-127]( https://github.com/jaanga/terrain-de3-96-127 ) 
-
 
 
 ## Strategies
