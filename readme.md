@@ -6,7 +6,7 @@ _terrain/0/0/0.png - the entire globe at zoom level 0_
 
 This and the various other related Jaanga Terrain repositories only contain data.
 The terrain data - 3d elevation data for the entire globe in the form of PNG heightmaps - may be viewed as maps with a variety of viewers.
-Several viewer apps are available from the [Jaanga Terrain Viewer]( https://github.com/jaanga/terrain-viewer ) repository.
+Several viewer apps are available from the [Jaanga Terrain Viewer]( http://jaanga.github.io/terrain-viewer/index.html ) repository.
 
 
 ## Contents

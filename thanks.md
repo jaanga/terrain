@@ -7,9 +7,9 @@ Thank you Mr.doob for [Three.js]( http://mrdoob.github.io )
 
 Thank you [Khronos Group]( http://www.khronos.org/ ) for [WebGL]( http://www.khronos.org/webgl/ )
 
-Jaume Sánchez and his "[Blocky Earth](http://www.clicktorelease.com/code/blocky_earth/)" for giving me the idea that elevations are obtainable and you can do reverse Mercator projections.
+Jaume Sanchez and his "[Blocky Earth](http://www.clicktorelease.com/code/blocky_earth/)" for giving me the idea that elevations are obtainable and you can do reverse Mercator projections.
 
-And also to Bjørn Sandvik and his tutorial at [Textural terrains with three.js](http://blog.thematicmapping.org/2013/10/textural-terrains-with-threejs.html).
+And also to Bjorn Sandvik and his tutorial at [Textural terrains with three.js](http://blog.thematicmapping.org/2013/10/textural-terrains-with-threejs.html).
 
 And to [meetar]( http://edgeca.se/journey-to-the-center-of-web3d/ ).
 
