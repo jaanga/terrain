@@ -4,89 +4,99 @@ Jaanga Terrain Read Me
 ![terrain/0/0/0.png]( 0/0/0.png )  
 _terrain/0/0/0.png - the entire globe at zoom level 0_
 
-This and the various other related Jaanga Terrain repositories only contain data. 
-The terrain data - 3d elevation data for the entire globe in the form of PNG heightmaps - may be viewed as maps with a variety of viewers. 
+This and the various other related Jaanga Terrain repositories only contain data.
+The terrain data - 3d elevation data for the entire globe in the form of PNG heightmaps - may be viewed as maps with a variety of viewers.
 Several viewer apps are available from the [Jaanga Terrain Viewer]( https://github.com/jaanga/terrain-viewer ) repository.
+
 
 ## Contents
 
-An annotated table of contents for all the Terrain repositories on GitHub   
+An annotated table of contents with links for all the Terrain repositories on GitHub.
 
 [Jaanga Terrain Contents]( http://jaanga.github.io/terrain/contents.html )
 
+
 ## Overview
 
-The mission and vision for this work - as well as the issues that bring this project into being 
+The mission and vision for this work - as well as the issues that bring this project into being.
 
 [Jaanga Terrain Overview]( http://jaanga.github.io/terrain/overview.html )
 
 
+## Technics
+
+The thought processes and the command line arguments that make this project viable.
+
+[Jaanga Terrain Technics]( http://jaanga.github.io/terrain/technics.html  )
+
+## Further Considerations
+
+Aspects and thoughts not covered elsewhere.
+
+[Jaanga Terrain Further Considerations]( http://jaanga.github.io/terrain/further-considerations.html )
+
+## Thanks
+
+The free open source software movement is wonderful. It's always nice to be able to say 'thank you'.
+
+[Jaanga Terrain Thanks]( http://jaanga.github.io/terrain/thanks.html )
+
+
 ## Issues & Notes
 
-The current Terrain height maps follow a different projection system than the one used by most Slippy Maps.  We are currently researching the best methods for reconciling the differences. 
+### 2014-01-28 ~ A First Pass
+The current data sets has a number of issues:
 
-This repo currently contains every folder and file required to display height maps for Slippy Map levels 0 to 7.
+* The total number of heights is constricted. Have a look at Mount Everest.
+* Data could be more highly compressed
+* It would be nice if images has greater contrast when you view them
+* The generation time could always be shorter
+* No sea level depths are indicated
+* There's a significant amount of 1 second data that could be added
+* There is no allowance made for the gaps between the PNG files
+* And probably much more that we haven't even been made aware of yet
 
-Currently the folders contain height maps only up to level 7 - After that there is a folder titled 7+ that has .
+See also the issues with the [Terrain Viewer]( http://jaanga.github.io/terrain-viewer/ ) files
+
+We look forward o tackling theses issues...
+  
 
 
-### Copyright and License
-[FGx copyright notice and license]( https://github.com/fgx/fgx.github.io/blob/master/fgx-copyright-notice-and-license.md )
+### System Requirements
+
+In order to view the files on this site you will need a device and browser that provides good support for [WebGL](http://get.webgl.org/)
+WebGL is the JavaScript API for rendering interactive 3D graphics and 2D graphics within any compatible web browser without the use of plug-ins. 
+
+Generally this means a computer with an Intel Core i5 processor or better with an external GPU such as one made by Nvidia. 
+Successful use of the apps on a phone or tablet is highly unlikely. 
+A mouse or other pointing device with a scroll wheel is also highly recommended so that you can zoom, pant and rotate in 3D.
+ 
+The apps here are currently being built and tested with the Google Chrome browser. 
+Bugs on browsers other than Chrome need not be reported until such time as the work settles down and an effort to support more browsers is initiated.
+
+
+## Copyright and License
+Copyright &copy; 2014 Jaanga authors ~ All work herein is under the [MIT License](http://jaanga.github.io/libs/jaanga-copyright-and-mit-license.md)
+
 
 This repository is at an early and volatile stage. Not all licensing requirements may have been fully met let alone identified. It is the intension of the authors to play fair and all such requirements will either be met or the feature in question will turned off.
 
-In preparing this data much use has been made of [GDAL]( http://gdal.org ) and [Image Magick]( http://imagemagick.org ). Thank you for the usefil tools.
-
-The current source for the height maps for levels 0 to 4 is [CleanTOPO2]( http://www.shadedrelief.com/cleantopo2/index.html ). 
-The license is: 'You are welcome to use the contents of this site for personal use.'
-Thank you. 
 
 
-## GDAL
-
-There are extensive note on how the GDAL utilities are used to build the heightmaps in the [Jaanga Terrain Wiki]( https://github.com/jaanga/terrain/wiki ).
-
-<!--
-There are a number of ways to install GDAL
-
-Links on the GDAL site:
-
-* http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries
-
-Two we have looked at:
-
-* <http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries>
-* <http://fwtools.maptools.org/>
-
-
-Our current favorite way is via oSGeo4W:
-
-* [OSGeo4W]( http://trac.osgeo.org/osgeo4w )
-
-
-
-This app allows you to install GDAL/OGR, QGIS, GRASS, Python and much more - perhaps too much. 
-If you want a minimal installation, you can use the 'Express Install' and just select GDAL. 
-And then run 'Advanced Install' and add the Python utilities - which includes gdl2tiles.py.
-
-We could have learned a lot faster if we had found this page earlier:
-
-<http://alastaira.wordpress.com/2011/07/11/maptiler-gdal2tiles-and-raster-resampling/>
-
-Here is the command line we are using:
-
-    gdal2tiles -e -n -p mercator -r bilinear -w none -z 0-7 input.tif output-folder/
-	
-Since we are using OSM format, we had to edit gdal2tile. We did so according to this link:
-
-<http://gis.stackexchange.com/questions/63024/gdal2tiles-maptiles-from-bsb-kap-are-switched>
-
--->
-	
-	
 ## Change Log
 
-2014-01-26 ~ 
+2014-01-26-28 ~ Theo
+
+* Too many changes too fast to catalog...
+
+Superseded notes
+
+The current Terrain height maps follow a different projection system than the one used by most Slippy Maps.  We are currently researching the best methods for reconciling the differences.  
+  
+This repo currently contains every folder and file required to display height maps for Slippy Map levels 0 to 7.  
+
+Currently the folders contain height maps only up to level 7 - After that there is a folder titled 7+ that has...  
+ 
 
 2014-01-22 ~ Theo
 
@@ -120,4 +130,4 @@ Since we are using OSM format, we had to edit gdal2tile. We did so according to 
 * Folders and files built and added
 * files are all dummy images of the FGx Cap
 
- 
+
