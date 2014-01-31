@@ -27,9 +27,9 @@ In principle each mesh is built of a grid of 256 x 256 vertices and they are lai
 
 So where is the error?
 
-Is it in the way the meshes are laid out? Is it in te way that the dat is turned into a mercator projection and transformed into a PNG file? Does the error have to do with tuning the binary data into the intermediate TIFF file? Or is there something we don't yet understand about Jonathan de Farrant's data.
+Is it in the way the meshes are laid out? Is it in the way that the data is turned into a Mercator projection and transformed into a PNG file? Does the error have to do with tuning the binary data into the intermediate TIFF file? Or is there something we don't yet understand about Jonathan de Farranti's data.
 
-We don;t know. But the gaps are a constant reminder that there's something we need to investigate further.
+We don't know yet. But the gaps are a constant reminder that there's something we need to investigate further.
 
  
 ## Edge Conditions: Tiles
@@ -51,7 +51,7 @@ Little by little or actually edge by edge, these situations are being dealt with
 It's a fun little game of logic. So every time you see a tile that is flat or has not yet been updated from the previous view you can think we still have some more fun ahead of us.
 
 
-2014-01-28 ~ This issue has been solved temproarily by building only a single 256 x 256 mesh
+2014-01-28 ~ This issue has been solved temporarily by building only a single 256 x 256 mesh
 
 Note: this page should go to the Terrain Viewer repo...
 
