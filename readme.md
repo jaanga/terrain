@@ -41,6 +41,13 @@ The free open source software movement is wonderful. It's always nice to be able
 
 [Jaanga Terrain Thanks]( http://jaanga.github.io/terrain/thanks.html )
 
+## Project Links
+
+You have two ways of viewing the Jaanga Terrain files:
+
+* Code hosted on GitHub: [jaanga.github.io]( http://jaanga.github.io/terrain/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
+* Source code on GitHub: [github.com/jaanga]( https://github.com/jaanga/terrain/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
+
 
 ## Issues & Notes
 
