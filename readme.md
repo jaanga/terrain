@@ -5,45 +5,43 @@ Jaanga Terrain Read Me
 _terrain/0/0/0.png - the entire globe at zoom level 0_
 
 This and the various other related Jaanga Terrain repositories only contain data.
-The terrain data - 3d elevation data for the entire globe in the form of PNG heightmaps - may be viewed as maps with a variety of viewers.
+The terrain data is 3D elevation data for the entire globe in the form of PNG heightmaps derived using the data 
+from Jonathan de Ferranti's [Viewfinder Panoramas]( http://www.viewfinderpanoramas.org/ ) web site.
+
+The data may be viewed as maps with a variety of viewers.
 Several viewer apps are available from the [Jaanga Terrain Viewer]( http://jaanga.github.io/terrain-viewer/index.html ) repository.
 
 
 ## Contents
 
-An annotated table of contents with links for all the Terrain repositories on GitHub.
-
+An annotated table of contents with links for all the Terrain repositories on GitHub.  
 [Jaanga Terrain Contents]( http://jaanga.github.io/terrain/contents.html )
 
 
 ## Overview
 
-The mission and vision for this work - as well as the issues that bring this project into being.
-
+The mission and vision for this work - as well as the issues that bring this project into being.  
 [Jaanga Terrain Overview]( http://jaanga.github.io/terrain/overview.html )
 
 
 ## Technics
 
-The thought processes and the command line arguments that make this project viable.
-
+The thought processes and the command line arguments that make this project viable.  
 [Jaanga Terrain Technics]( http://jaanga.github.io/terrain/technics.html  )
 
 ## Further Considerations
 
-Aspects and thoughts not covered elsewhere.
-
+Aspects and thoughts not covered elsewhere.  
 [Jaanga Terrain Further Considerations]( http://jaanga.github.io/terrain/further-considerations.html )
 
 ## Thanks
 
-The free open source software movement is wonderful. It's always nice to be able to say 'thank you'.
-
+The free open source software movement is wonderful. It's always nice to be able to say 'thank you'.  
 [Jaanga Terrain Thanks]( http://jaanga.github.io/terrain/thanks.html )
 
 ## Project Links
 
-You have two ways of viewing the Jaanga Terrain files:
+You have two ways of viewing the Jaanga Terrain files:  
 
 * Code hosted on GitHub: [jaanga.github.io]( http://jaanga.github.io/terrain/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
 * Source code on GitHub: [github.com/jaanga]( https://github.com/jaanga/terrain/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
@@ -56,7 +54,7 @@ The current data sets has a number of issues:
 
 * The total number of heights is constricted. Have a look at Mount Everest.
 * Data could be more highly compressed
-* It would be nice if images has greater contrast when you view them
+* It would be nice if images had greater contrast when you view them
 * The generation time could always be shorter
 * No sea level depths are indicated
 * There's a significant amount of 1 second data that could be added
@@ -65,7 +63,7 @@ The current data sets has a number of issues:
 
 See also the issues with the [Terrain Viewer]( http://jaanga.github.io/terrain-viewer/ ) files
 
-We look forward o tackling theses issues...
+We look forward to tackling theses issues...
   
 
 
@@ -107,7 +105,7 @@ Currently the folders contain height maps only up to level 7 - After that there 
 
 2014-01-22 ~ Theo
 
-* de Farranti's 3 second data is online as PNG files
+* de Ferranti's 3 second data is online as PNG files
 * There is beginning to be a fair description of the issues and the benefits
 
 
