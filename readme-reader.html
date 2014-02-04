@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta name=viewport content=width=device-width>
+<meta charset=utf-8>
+</head>
+<body>
+<script src=http://jaanga.github.io/libs/md/showdown.js ></script>
+<script>
+
+	var content;
+	var converter;
+
+	init();
+
+	function init() {
+		converter = new Showdown.converter();
+
+		var css = document.body.appendChild( document.createElement('style') );
+		css.innerHTML = 'body { font: normal 12pt sans-serif; margin: 0; overflow: hidden; }';
+
+		var basic = 'border: 3px double #eee; overflow-x: hidden; overflow-y: auto; padding: 10px; position: absolute; ';
+		var height = ' height: ' + ( window.innerHeight * 0.88 ) + 'px;';
+		var horizontal = ' left: 0; margin: auto; max-width: 900px; min-width: 700px; right: 0; width: 100%; ';
+		var top = ' top: 60px;';
+
+		var menu = document.body.appendChild( document.createElement( 'div' ) );
+		menu.style.cssText = basic + height + 'left:10px; width: 200px; ' + top ;
+
+		content = document.body.appendChild( document.createElement( 'div' ) );
+		content.style.cssText = basic + height + horizontal + top ;
+
+		requestFile = function( fname ) {
+			var xmlHttp = new XMLHttpRequest();
+			xmlHttp.open( 'GET', fname, false );
+			xmlHttp.send( null );
+			return xmlHttp.responseText;
+		};
+
+		menu.innerHTML = converter.makeHtml( requestFile( 'readme-menu.md' ) );
+
+		var index = window.location.pathname.lastIndexOf( '/' ) + 1;
+		var filename = window.location.pathname.substr( index).replace( '.html','.md' );
+
+		if ( !location.hash ) {
+			displayPage( 'readme.md', rm );
+		} else {
+			displayPage( location.hash.substr(1), null );
+		}
+
+	}
+
+	function displayPage( fname, element ) {
+
+		content.innerHTML = converter.makeHtml( requestFile( fname ) );
+
+		document.title = content.innerHTML.match( /<h1(.*?)>(.*?)<\/h1>/ )[2];
+
+		var paragraphs = document.getElementsByTagName('p');
+
+		for (var i = 0, len = paragraphs.length; i < len; i++) {
+			paragraphs[i].style.backgroundColor = '';
+		}
+
+		if ( !!element ) {
+			element.style.backgroundColor = '#edd';
+			if ( element === rm ) {
+				history.pushState( '', document.title, window.location.pathname );
+			} else {
+				location.hash = fname ;
+			}
+		}
+	}
+</script>
+</body>
+</html>
