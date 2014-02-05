@@ -6,7 +6,7 @@
 </p>
 
 <p id=co >
-	<a href=JavaScript:displayPage("contents.md",co); >Contens</a>
+	<a href=JavaScript:displayPage("contents.md",co); >Contents</a>
 </p>
 
 <p id=ov >
@@ -28,3 +28,7 @@
 ****
 
 [Terrain Viewer]( ../terrain-viewer/index.html )
+
+****
+
+[Source Code on GitHub]( https://github.com/jaanga/terrain/ )
