@@ -15,29 +15,29 @@ Several viewer apps are available from the [Jaanga Terrain Viewer]( http://jaang
 ## Contents
 
 An annotated table of contents with links for all the Terrain repositories on GitHub.  
-[Jaanga Terrain Contents]( http://jaanga.github.io/terrain/contents.html )
+[Jaanga Terrain Contents]( http://jaanga.github.io/terrain/readme-reader.html#contents.md )
 
 
 ## Overview
 
 The mission and vision for this work - as well as the issues that bring this project into being.  
-[Jaanga Terrain Overview]( http://jaanga.github.io/terrain/overview.html )
+[Jaanga Terrain Overview]( http://jaanga.github.io/terrain/readme-reader.html#overview.md )
 
 
 ## Technics
 
 The thought processes and the command line arguments that make this project viable.  
-[Jaanga Terrain Technics]( http://jaanga.github.io/terrain/technics.html  )
+[Jaanga Terrain Technics]( http://jaanga.github.io/terrain/readme-reader.html#technics.md  )
 
 ## Further Considerations
 
 Aspects and thoughts not covered elsewhere.  
-[Jaanga Terrain Further Considerations]( http://jaanga.github.io/terrain/further-considerations.html )
+[Jaanga Terrain Further Considerations]( http://jaanga.github.io/terrain/readme-reader.html#further-considerations.md )
 
 ## Thanks
 
 The free open source software movement is wonderful. It's always nice to be able to say 'thank you'.  
-[Jaanga Terrain Thanks]( http://jaanga.github.io/terrain/thanks.html )
+[Jaanga Terrain Thanks]( http://jaanga.github.io/terrain/readme-reader.html#thanks.md )
 
 ## Project Links
 

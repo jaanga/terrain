@@ -27,7 +27,7 @@ Terrain Viewer demo: [Hello World]( http://jaanga.github.io/terrain-viewer/hello
 
 ## Jaanga Terrain DE3
 
-Terrain Viewer demo: [UnFlatland r5]( http://jaanga.github.io/terrain-viewer/un-flatland/r1/un-flatland-r5.html )
+Terrain Viewer demo: [UnFlatland r6]( http://jaanga.github.io/terrain-viewer/un-flatland/r6/un-flatland-r6.html )
 
 Repository: [Terrain DE3 0-31]( https://github.com/jaanga/terrain-de3-031 )  
 Repository: [Terrain DE3 32-63]( https://github.com/jaanga/terrain-32-63 )  
@@ -44,7 +44,7 @@ Repository: [Terrain DE3 96-127]( https://github.com/jaanga/terrain-96-127 )
 ## Jaanga Terrain Viewer
 Repository: [Terrain Viewer]( https://github.com/jaanga/terrain-viewer )
 
-Terrain Viewer demo: [PNG Viewer]( http://jaanga.github.io/terrain-viewer/png-viewer/r1/png-viewer.html "The raw data has a beauty of its own" )
+Terrain Viewer demo: [Raw PNG Viewer]( http://jaanga.github.io/terrain-viewer/png-viewer/r3/png-viewer-r3.html "The raw data has a beauty of its own" )
 
 * A variety of tools, apps, demos and tips
 * All work in your browser  - no plugin required
@@ -61,6 +61,8 @@ Terrain Viewer demo: [PNG Viewer]( http://jaanga.github.io/terrain-viewer/png-vi
 * Very small file size ~ you can easily open up and start hacking
 * Fast enough to be usable
 
+## Jaanga Terrain Plus
+Repository: [Terrain Viewer]( https://github.com/jaanga/terrain-plus )
 
 ## Jaanga Files
 You have two ways of viewing the files in the Jaanga Terrain repositories:
