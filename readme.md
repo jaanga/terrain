@@ -11,6 +11,7 @@ from Jonathan de Ferranti's [Viewfinder Panoramas]( http://www.viewfinderpanoram
 The data may be viewed as maps with a variety of viewers.
 Several viewer apps are available from the [_Jaanga Terrain Viewer_]( http://jaanga.github.io/terrain-viewer/index.html ) repository.
 
+Here's what is on the menu:
 
 ## Contents
 
@@ -73,7 +74,7 @@ This repository is at an early and volatile stage. Not all licensing requirement
 2014-03-15 ~ Theo
 
 * Update reader-readme.html to latest.
-* Add text to this read
+* Add text and links to this and the other read me files
 
 2014-01-26-28 ~ Theo
 

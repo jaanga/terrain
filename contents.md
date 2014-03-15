@@ -17,8 +17,6 @@ Repository: [Terrain]( https://github.com/jaanga/terrain/ )
 ## Jaanga Terrain DE15
 Repository: [Terrain DE15]( https://github.com/jaanga/terrain-de15/ )
 
-Terrain Viewer demo: [Hello World]( http://jaanga.github.io/terrain-viewer/hello-world/r1/hello-world.html "look at the code.It's easy peasy. )
-
 * Jonathan de Ferranti's 15 second data set in PNG files organized in the Open Street Map way
 * About one data point for every 500 meters
 * Data set covers the entire globe
@@ -27,14 +25,12 @@ Terrain Viewer demo: [Hello World]( http://jaanga.github.io/terrain-viewer/hello
 
 ## Jaanga Terrain DE3
 
-Terrain Viewer demo: [UnFlatland r6]( http://jaanga.github.io/terrain-viewer/un-flatland/r6/un-flatland-r6.html )
-
 Repository: [Terrain DE3 0-31]( https://github.com/jaanga/terrain-de3-031 )  
 Repository: [Terrain DE3 32-63]( https://github.com/jaanga/terrain-32-63 )  
 Repository: [Terrain DE3 64-95]( https://github.com/jaanga/terrain-64-95 )  
 Repository: [Terrain DE3 96-127]( https://github.com/jaanga/terrain-96-127 )  
 
-* Data sourced from Jonathan de Ferranti's [Viewfinder Panorama]( http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm )
+* Data sourced from Jonathan de Ferranti's [Viewfinder Panoramas]( http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm )
 * Loads Jonathan de Ferranti's 3 second data set
 * About one data point for every 90 meters
 * Approximately 2.85 GB of terrain data in 128 folders of 128 files each or 16,384 PNG files
@@ -44,7 +40,7 @@ Repository: [Terrain DE3 96-127]( https://github.com/jaanga/terrain-96-127 )
 ## Jaanga Terrain Viewer
 Repository: [Terrain Viewer]( https://github.com/jaanga/terrain-viewer )
 
-Terrain Viewer demo: [Raw PNG Viewer]( http://jaanga.github.io/terrain-viewer/png-viewer/r3/png-viewer-r3.html "The raw data has a beauty of its own" )
+_A good place to start - especially if you just want to see the data..._
 
 * A variety of tools, apps, demos and tips
 * All work in your browser  - no plugin required
@@ -62,7 +58,12 @@ Terrain Viewer demo: [Raw PNG Viewer]( http://jaanga.github.io/terrain-viewer/pn
 * Fast enough to be usable
 
 ## Jaanga Terrain Plus
-Repository: [Terrain Viewer]( https://github.com/jaanga/terrain-plus )
+
+Repository: [Terrain Plus]( https://github.com/jaanga/terrain-plus )
+
+* Gazetteers used by the viewers
+* Heightmaps used in early versions
+
 
 ## Jaanga Files
 You have two ways of viewing the files in the Jaanga Terrain repositories:
