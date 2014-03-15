@@ -4,17 +4,17 @@ Jaanga Terrain Read Me
 ![terrain/0/0/0.png]( 0/0/0.png )  
 _terrain/0/0/0.png - the entire globe at zoom level 0_
 
-This and the various other related Jaanga Terrain repositories only contain data.
+This and the various other related _Jaanga Terrain_ repositories only contain data.
 The terrain data is 3D elevation data for the entire globe in the form of PNG heightmaps derived using the data 
 from Jonathan de Ferranti's [Viewfinder Panoramas]( http://www.viewfinderpanoramas.org/ ) web site.
 
 The data may be viewed as maps with a variety of viewers.
-Several viewer apps are available from the [Jaanga Terrain Viewer]( http://jaanga.github.io/terrain-viewer/index.html ) repository.
+Several viewer apps are available from the [_Jaanga Terrain Viewer_]( http://jaanga.github.io/terrain-viewer/index.html ) repository.
 
 
 ## Contents
 
-An annotated table of contents with links for all the Terrain repositories on GitHub.  
+An annotated table of contents with links to all the _Jaanga Terrain_ data repositories on GitHub.  
 [Jaanga Terrain Contents]( http://jaanga.github.io/terrain/readme-reader.html#contents.md )
 
 
@@ -26,12 +26,12 @@ The mission and vision for this work - as well as the issues that bring this pro
 
 ## Technics
 
-The thought processes and the command line arguments that make this project viable.  
+The thought processes and the command line arguments that make this project viable. In other words, everything you need to recreate this project for yourself.
 [Jaanga Terrain Technics]( http://jaanga.github.io/terrain/readme-reader.html#technics.md  )
 
 ## Further Considerations
 
-Aspects and thoughts not covered elsewhere.  
+Aspects and thoughts not covered elsewhere.  This includes discussion on issues/bugs/road map on the current work.  
 [Jaanga Terrain Further Considerations]( http://jaanga.github.io/terrain/readme-reader.html#further-considerations.md )
 
 ## Thanks
@@ -45,26 +45,6 @@ You have two ways of viewing the Jaanga Terrain files:
 
 * Code hosted on GitHub: [jaanga.github.io]( http://jaanga.github.io/terrain/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
 * Source code on GitHub: [github.com/jaanga]( https://github.com/jaanga/terrain/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
-
-
-## Issues & Notes
-
-### 2014-01-28 ~ A First Pass
-The current data sets has a number of issues:
-
-* The total number of heights is constricted. Have a look at Mount Everest.
-* Data could be more highly compressed
-* It would be nice if images had greater contrast when you view them
-* The generation time could always be shorter
-* No sea level depths are indicated
-* There's a significant amount of 1 second data that could be added
-* There is no allowance made for the gaps between the PNG files
-* And probably much more that we haven't even been made aware of yet
-
-See also the issues with the [Terrain Viewer]( http://jaanga.github.io/terrain-viewer/ ) files
-
-We look forward to tackling theses issues...
-  
 
 
 ### System Requirements
@@ -89,6 +69,11 @@ This repository is at an early and volatile stage. Not all licensing requirement
 
 
 ## Change Log
+
+2014-03-15 ~ Theo
+
+* Update reader-readme.html to latest.
+* Add text to this read
 
 2014-01-26-28 ~ Theo
 

@@ -1,5 +1,5 @@
 [Jaanga](../index.html ) &raquo; Terrain
-=======================================
+========================================
 
 <p id=rm >
 	<a href=JavaScript:displayPage("readme.md",rm); >Read Me</a>
@@ -31,4 +31,5 @@
 
 ****
 
-[Source Code on GitHub]( https://github.com/jaanga/terrain/ )
+[Source Code on GitHub]( https://github.com/jaanga/terrain/ )  
+[Copyright and License]( https://github.com/jaanga/jaanga.github.io/blob/master/jaanga-copyright-and-mit-license.md )

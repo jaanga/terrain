@@ -5,7 +5,7 @@ Jaanga Terrain Further Considerations
 ## Preface 2014-01-28
 This is R1 for both data and code.
 
-Jaanga Terrain holds the data and Jaanga Terrain Viewer has the apps.
+_Jaanga Terrain_ holds the data and _Jaanga Terrain Viewer_ has the apps.
 
 It seems amazing that it is possible to compress over 265 gigabytes of binary data into just 2.85 gigabytes of PNG files. The question immediately arises as to what data has been lost, ignored or corrupted.
 
@@ -15,6 +15,25 @@ And the third question is the most fun: what apps or tools can we create that wi
 
 And then once that process is rolling nicely, it will be time to start adding the one second (data every 30 metres) data where that is available. With the current interpolation system it will be possible to have, say, 15 second data over much of the oceans and one second data in urban or geographically interesting areas only - and thus keep the total size of the data files down to a reasonable limit.
 
+
+
+## Issues & Notes
+
+### A First Pass
+The current data sets has a number of issues:
+
+* The total number of heights is constricted. Have a look at Mount Everest.
+* Data could be more highly compressed
+* It would be nice if images had greater contrast when you view them
+* The generation time could always be shorter
+* No sea level depths are indicated
+* There's a significant amount of 1 second data that could be added
+* There is no allowance made for the gaps between the PNG files
+* And probably much more that we haven't even been made aware of yet
+
+See also the issues with the [Terrain Viewer]( http://jaanga.github.io/terrain-viewer/ ) files
+
+We look forward to tackling theses issues...
 
  
 ## Edge Conditions: Heightmaps
@@ -27,7 +46,7 @@ In principle each mesh is built of a grid of 256 x 256 vertices and they are lai
 
 So where is the error?
 
-Is it in the way the meshes are laid out? Is it in the way that the data is turned into a Mercator projection and transformed into a PNG file? Does the error have to do with tuning the binary data into the intermediate TIFF file? Or is there something we don't yet understand about Jonathan de Farranti's data.
+Is it in the way the meshes are laid out? Is it in the way that the data is turned into a Mercator projection and transformed into a PNG file? Does the error have to do with tuning the binary data into the intermediate TIFF file? Or is there something we don't yet understand about Jonathan de Ferranti's data.
 
 We don't know yet. But the gaps are a constant reminder that there's something we need to investigate further.
 
