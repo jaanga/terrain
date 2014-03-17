@@ -3,21 +3,24 @@ Jaanga Terrain Contents
 
 Methods, tools, data and demos to create lively 3D cartography - faster and more easily than ever before 
 
-It's all more than can fit in a single GitHub repository, so here is an annotated table of contents:
+It's all more data than can fit in a single GitHub repository. 
+The following is an annotated table of contents of what is in each repository:
 
 
 ## Jaanga Terrain
 Repository: [Terrain]( https://github.com/jaanga/terrain/ )
 
-* Overview, main wiki and primary issues page all maintained in this repository
-* Heightmaps with elevation data for TMS zoom levels 0-7, 16K PNG files with 165 MB of files
-* Methodology and tools for fast easy access to elevation data for zoom levels 8 to 18
-* Covers every part of the world that [OSM]( http://www.openstreetmap.org/ ) covers - matches [Slippy Map]( http://wiki.openstreetmap.org/wiki/Slippy_Map )
+* Overviews, main wiki and primary issues page are all maintained in this repository
+* Various documents provide descriptions of methodology and tools for fast easy access to elevation data for zoom levels 8 to 18
+* Also holds the heightmaps with elevation data for Tile Map Service (TMS) zoom levels 0-7, 16K PNG files with 165 MB of files
+* Data sourced from Jonathan de Ferranti's [Viewfinder Panoramas ~ 15 second data set ]( http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org15.htm )
+* These heightmaps cover every part of the world that [OSM]( http://www.openstreetmap.org/ ) covers - matches [Slippy Map]( http://wiki.openstreetmap.org/wiki/Slippy_Map )
 
 ## Jaanga Terrain DE15
 Repository: [Terrain DE15]( https://github.com/jaanga/terrain-de15/ )
 
-* Jonathan de Ferranti's 15 second data set in PNG files organized in the Open Street Map way
+* Data sourced from Jonathan de Ferranti's [Viewfinder Panoramas ~ 15 second data set ]( http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org15.htm )
+* Data supplied as PNG files organized in the Tile Map Service (TMS) 'hierarchical bins' manner;
 * About one data point for every 500 meters
 * Data set covers the entire globe
 * Approximately 836 MB of data in 128 folders of 128 files each or 16,384 PNG files
@@ -30,8 +33,8 @@ Repository: [Terrain DE3 32-63]( https://github.com/jaanga/terrain-32-63 )
 Repository: [Terrain DE3 64-95]( https://github.com/jaanga/terrain-64-95 )  
 Repository: [Terrain DE3 96-127]( https://github.com/jaanga/terrain-96-127 )  
 
-* Data sourced from Jonathan de Ferranti's [Viewfinder Panoramas]( http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm )
-* Loads Jonathan de Ferranti's 3 second data set
+* Data sourced from Jonathan de Ferranti's [Viewfinder Panoramas ~ 3 second data set]( http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm )
+* Data supplied as PNG files organized in the Tile Map Service (TMS) 'hierarchical bins' manner;
 * About one data point for every 90 meters
 * Approximately 2.85 GB of terrain data in 128 folders of 128 files each or 16,384 PNG files
 * Files distributed via four repositories to comply with the GitHub request of one gigabyte maximum per repository
