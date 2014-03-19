@@ -4,6 +4,13 @@ Jaanga Terrain Read Me
 ![terrain/0/0/0.png]( 0/0/0.png )  
 _terrain/0/0/0.png - the entire globe at zoom level 0_
 
+##### Project Links
+You have two ways of viewing the Jaanga Terrain files:  
+
+* Web pages hosted on GitHub: [jaanga.github.io]( http://jaanga.github.io/terrain/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
+* Source code on GitHub: [github.com/jaanga]( https://github.com/jaanga/terrain/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
+
+## Preface
 This and the various other related _Jaanga Terrain_ repositories only contain data.
 The terrain data is 3D elevation data for the entire globe in the form of PNG heightmaps derived using the data 
 from Jonathan de Ferranti's [Viewfinder Panoramas]( http://www.viewfinderpanoramas.org/ ) web site.
@@ -40,12 +47,6 @@ Aspects and thoughts not covered elsewhere.  This includes discussion on issues/
 The free open source software movement is wonderful. It's always nice to be able to say 'thank you'.  
 [Jaanga Terrain Thanks]( http://jaanga.github.io/terrain/readme-reader.html#thanks.md )
 
-## Project Links
-
-You have two ways of viewing the Jaanga Terrain files:  
-
-* Code hosted on GitHub: [jaanga.github.io]( http://jaanga.github.io/terrain/ "view the files as apps." ) <input value="<< You are now probably here." size=28 style="font:bold 12pt monospace;border-width:0;" >  
-* Source code on GitHub: [github.com/jaanga]( https://github.com/jaanga/terrain/ "View the files as source code." ) <scan style=display:none ><< You are now probably here.</scan>
 
 
 ### System Requirements
