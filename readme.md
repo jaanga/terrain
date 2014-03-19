@@ -16,8 +16,7 @@ Here's what is on the menu:
 ## Contents
 
 An annotated table of contents with links to all the _Jaanga Terrain_ data repositories on GitHub.  
-[Jaanga Terrain Contents]( http://jaanga.github.io/terrain/readme-reader.html#contents.md )
-
+[Jaanga Terrain Contents]( http://jaanga.github.io/terrain/readme-reader.html#contents.md )  
 
 ## Overview
 
