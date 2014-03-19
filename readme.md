@@ -26,7 +26,8 @@ The mission and vision for this work - as well as the issues that bring this pro
 
 ## Technics
 
-The thought processes and the command line arguments that make this project viable. In other words, everything you need to recreate this project for yourself.
+The thought processes and the command line arguments that make this project viable. 
+In other words, everything you need to recreate this project for yourself.  
 [Jaanga Terrain Technics]( http://jaanga.github.io/terrain/readme-reader.html#technics.md  )
 
 ## Further Considerations
@@ -67,8 +68,11 @@ Copyright &copy; 2014 Jaanga authors ~ All work herein is under the [MIT License
 This repository is at an early and volatile stage. Not all licensing requirements may have been fully met let alone identified. It is the intension of the authors to play fair and all such requirements will either be met or the feature in question will turned off.
 
 
-
 ## Change Log
+
+2014-03-19 ~ Theo
+
+* Fix broken links
 
 2014-03-15 ~ Theo
 
@@ -77,7 +81,7 @@ This repository is at an early and volatile stage. Not all licensing requirement
 
 2014-01-26-28 ~ Theo
 
-* Too many changes too fast to catalog...
+* Too many changes, too fast, to catalog...
 
 Superseded notes
 

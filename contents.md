@@ -28,10 +28,10 @@ Repository: [Terrain DE15]( https://github.com/jaanga/terrain-de15/ )
 
 ## Jaanga Terrain DE3
 
-Repository: [Terrain DE3 0-31]( https://github.com/jaanga/terrain-de3-031 )  
-Repository: [Terrain DE3 32-63]( https://github.com/jaanga/terrain-32-63 )  
-Repository: [Terrain DE3 64-95]( https://github.com/jaanga/terrain-64-95 )  
-Repository: [Terrain DE3 96-127]( https://github.com/jaanga/terrain-96-127 )  
+Repository: [Terrain DE3 0-31]( https://github.com/jaanga/terrain-de3-0-31 )  
+Repository: [Terrain DE3 32-63]( https://github.com/jaanga/terrain-de3-32-63 )  
+Repository: [Terrain DE3 64-95]( https://github.com/jaanga/terrain-de3-64-95 )  
+Repository: [Terrain DE3 96-127]( https://github.com/jaanga/terrain-de3-96-127 )  
 
 * Data sourced from Jonathan de Ferranti's [Viewfinder Panoramas ~ 3 second data set]( http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm )
 * Data supplied as PNG files organized in the Tile Map Service (TMS) 'hierarchical bins' manner;
