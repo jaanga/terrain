@@ -1,5 +1,5 @@
-[Jaanga](../index.html ) &raquo; Terrain
-========================================
+[Jaanga](../index.html ) &raquo;<br>[Terrain]( ./index.html )
+=============================================================
 
 <p id=rm >
 	<a href=JavaScript:displayPage("readme.md",rm); >Read Me</a>
@@ -27,7 +27,9 @@
 
 ****
 
-[Terrain Viewer]( ../terrain-viewer/index.html )
+[Terrain Viewer]( ../terrain-viewer/index.html )  
+
+[Terrain Plus]( ../terrain-plus/index.html )
 
 ****
 
